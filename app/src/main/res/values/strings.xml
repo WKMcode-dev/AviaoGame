@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aviao02</string>
+    <string name="titulo_cadastro">Digite seu nome</string>
+    <string name="hint_nome_jogador">Nome do jogador</string>
+    <string name="botao_confirmar">CONFIRMAR</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="game_over_message">Pontuação: %1$d\nRecorde: %2$d</string>
+    <string name="continuar">Continuar</string>
+    <string name="sair">Sair</string>
+    <string name="nome_jogador">Nome: %s</string>
+    <string name="recorde_jogador">Recorde: %d</string>
+</resources>
+
