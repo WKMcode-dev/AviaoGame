@@ -1,5 +1,8 @@
 # ✈️ Jogo de Avião 2D — Android
 
+Faculdade de Tecnologia e Inovação Senac-DF
+Alunos: Guilherme de Morais / Wryell Kenneth Machado(WKM) / Eduardo Oliveira
+
 Este projeto é um **jogo 2D de avião** desenvolvido em **Java para Android**, utilizando `SurfaceView` para renderização gráfica. O jogador controla um avião e deve evitar colisões com inimigos, enquanto acumula pontos. O projeto explora conceitos de desenvolvimento mobile, controle de jogo, persistência de dados com `SQLite` e personalização de usuário com `SharedPreferences`.
 
 ---
