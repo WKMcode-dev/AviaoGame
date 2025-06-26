@@ -1,37 +1,58 @@
-Jogo de Avião 2D — Android
+# ✈️ Jogo de Avião 2D — Android
 
-Este projeto é um jogo 2D de avião desenvolvido em Java para a plataforma Android. O principal objetivo foi aplicar conceitos de desenvolvimento mobile com SurfaceView, controle de jogo, pontuação e persistência de dados com banco de dados SQLite.
+Este projeto é um **jogo 2D de avião** desenvolvido em **Java para Android**, utilizando `SurfaceView` para renderização gráfica. O jogador controla um avião e deve evitar colisões com inimigos, enquanto acumula pontos. O projeto explora conceitos de desenvolvimento mobile, controle de jogo, persistência de dados com `SQLite` e personalização de usuário com `SharedPreferences`.
 
-📱 Funcionalidades
-	•	Gameplay 2D com SurfaceView
-Jogador controla um avião que deve desviar de inimigos que descem verticalmente da parte superior da tela.
-	•	Pontuação e Recorde
-O jogo exibe a pontuação atual durante a partida e, ao final (Game Over), mostra um popup com a pontuação final e o recorde armazenado no banco de dados.
-	•	Sistema de Jogador
-Cada jogador possui um nome e um ID, armazenados em SharedPreferences e utilizados para salvar e recuperar a pontuação.
-	•	Banco de Dados SQLite
-Utilizado para armazenar os dados de jogadores e suas pontuações. O sistema salva automaticamente o melhor resultado ao final da partida.
-	•	Menu de Pausa
-A qualquer momento, o jogador pode pausar a partida e optar por continuar o jogo.
-	•	Tela de Perfil (opcional)
-Há suporte para uma tela de perfil onde o jogador pode visualizar seus dados (ID e nome).
+---
 
-🛠 Tecnologias Utilizadas
-	•	Java
-	•	Android SDK
-	•	SurfaceView
-	•	SQLite (via SQLiteOpenHelper)
-	•	SharedPreferences
-	•	Material Components (FloatingActionButton, AlertDialog)
+## 📱 Funcionalidades
 
-🧪 Testes Realizados
-	•	Testado em emuladores Android de diferentes tamanhos de tela.
-	•	Verificado persistência correta da pontuação.
-	•	Game Over funcional com opções de “Continuar” e “Sair”.
-	•	Menu de pausa ativado via botão flutuante.
+- 🎮 **Gameplay com SurfaceView**  
+  Jogador controla um avião que deve desviar de inimigos que descem verticalmente.
 
-🔄 Melhorias Futuras
-	•	Adicionar sons ao jogo.
-	•	Implementar fases ou níveis de dificuldade.
-	•	Adicionar itens bônus ou power-ups.
-	•	Melhorar colisão com mais precisão (bounding box ou pixel-perfect).
+- 🏆 **Pontuação e Recorde**  
+  Exibe pontuação atual durante a partida e, ao final, mostra um *popup* com a pontuação final e o recorde salvo no banco de dados.
+
+- 👤 **Sistema de Jogador**  
+  Cada jogador possui um `ID` e um `nome`, armazenados via `SharedPreferences`.
+
+- 🗃️ **Banco de Dados SQLite**  
+  Utilizado para armazenar os dados dos jogadores e salvar automaticamente seus melhores resultados.
+
+- ⏸️ **Menu de Pausa**  
+  Jogador pode pausar a partida a qualquer momento e optar por continuar.
+
+- 🧾 **Tela de Perfil (opcional)**  
+  Permite visualizar dados do jogador (ID e nome).
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- Java  
+- Android SDK  
+- `SurfaceView`  
+- `SQLite` (`SQLiteOpenHelper`)  
+- `SharedPreferences`  
+- Material Components (`FloatingActionButton`, `AlertDialog`)
+
+---
+
+## 🧪 Testes Realizados
+
+- ✅ Testado em diversos emuladores Android com diferentes tamanhos de tela  
+- ✅ Persistência correta de pontuações verificada  
+- ✅ Funcionamento esperado do popup de **Game Over** com as opções "Continuar" e "Sair"  
+- ✅ Menu de pausa acessado via botão flutuante
+
+---
+
+## 🔄 Melhorias Futuras
+
+- 🔊 Adicionar efeitos sonoros e música de fundo  
+- 🧩 Implementar fases ou níveis de dificuldade  
+- ⭐ Adicionar itens bônus ou *power-ups*  
+- 🎯 Melhorar sistema de colisão com bounding box ou pixel-perfect collision
+
+---
+
+Feito com dedicação e aprendizado 🚀  
